@@ -24,7 +24,7 @@ const Hero = () => {
                 <h1 className='md:text-6xl text-gray-700 tracking-wide font-serif w-fit'>Prince Nimako,</h1>
                 <h1 className='md:text-6xl text-gray-300 tracking-wide font-sans w-fit'>A Front-End Web Developer.</h1>
                 <p className='text-gray-600 py-2 max-w-[70%] md:text-md font-light'>I am a front-end web developer specializing in building amazing
-                    customer-focused UI. Currently, I'm focused on building responsive
+                    customer-focused UI. Currently, I&apos;m focused on building responsive
                     front-end web applications using React/Next.js
                     while learning back-end technologies.
                 </p>
