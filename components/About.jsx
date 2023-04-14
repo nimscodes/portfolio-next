@@ -28,7 +28,7 @@ const About = () => {
                         </p>
                     </div>
                     <div className='hidden md:flex justify-end relative'>
-                        <Image className='border-gray-400 z-10 rounded-sm' src={profile} width={250} height={250}/>
+                        <Image className='border-gray-400 z-10 rounded-sm' src={profile} width={250} height={250} alt='profile'/>
     
                         <div className='hidden absolute -bottom-2 right-2 w-[250px] h-[320px] bg-gradient-to-r from-gray-400
                 to-[#5651ef] shadow-shadowOne lg:flex justify-center item-center animate-pulse'></div>
