@@ -4,18 +4,15 @@ import React from 'react'
 
 const Hero = () => {
 
-    const handleDownload = async () => {
-        try {
-          // Define the file URL and filename
-          const fileUrl = '/api/resume';
-          const fileName = 'resume.pdf';
-    
-          // Trigger the download using the custom file download utility function
-          await downloadFile(fileUrl, fileName);
-        } catch (error) {
-          console.error(error);
-        }
-    }
+    const handleDownload = () => {
+        const url = "/resume.pdf";
+        const link = document.createElement("a");
+        link.href = url;
+        link.setAttribute("download", "resume.pdf");
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      };
 
     return (
         <div className='max-w-[1240px] w-[90%] h-screen  p-2 flex justify-center items-center mx-auto'>
@@ -28,7 +25,7 @@ const Hero = () => {
                     front-end web applications using React/Next.js
                     while learning back-end technologies.
                 </p>
-                <div className='mt-10 cursor-pointer uppercase text-lg text-[#5651ef] p-3 w-fit border-2 border-[#5651ef] hover:bg-[#5651ef] hover:text-white ease-in duration-300'>
+                <div onClick={handleDownload} className='mt-10 cursor-pointer uppercase text-lg text-[#5651ef] p-3 w-fit border-2 border-[#5651ef] hover:bg-[#5651ef] hover:text-white ease-in duration-300'>
                     Download my resume
                 </div>
             </div>
