@@ -7,8 +7,8 @@ import Image from 'next/image'
 const About = () => {
 
     return (
-        <div id='about' className='max-w-[1240px] w-[90%] min-h-screen p-2 flex flex-col justify-center border items-center mx-auto'>
-            <div className='md:w-[85%] w-full flex flex-col justify-center p-2 mx-auto'>
+        <div id='about' className='max-w-[1240px] px-2 md:px-10 flex items-center justify-center min-h-screen lg:mx-auto mb-10'>
+            <div className='md:w-[95%] w-full flex flex-col p-5 gap-7'>
                 <Title title='About' desc='who i am' />
                 <div className='md:grid grid-cols-3 gap-5'>
                     <div className='flex flex-col gap-4 md:flex-2 col-span-2 text-gray-600 tracking-wide text-justify font-light'>

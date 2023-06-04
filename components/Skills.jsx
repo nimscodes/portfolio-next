@@ -3,11 +3,11 @@ import Title from './layout/Title'
 import { SiHtml5, SiCss3, SiJavascript, SiReact, SiNextdotjs, SiTailwindcss, SiNodedotjs, SiJquery, SiMongodb, SiBootstrap} from 'react-icons/si'
 const Skills = () => {
     return (
-        <div  id='skills' className='max-w-[1240px] w-[90%] min-h-screen p-2 flex flex-col justify-center items-center mx-auto'>
-            <div className='md:w-[85%] w-full mx-auto flex flex-col justify-center p-2'>
+        <div  id='skills' className='max-w-[1240px] px-2 md:px-10 flex items-center justify-center min-h-screen lg:mx-auto mb-10'>
+            <div className='md:w-[95%] w-full flex flex-col p-5 gap-7'>
                 <Title title='Skills' desc='what i can do' />
-                <div className='md:grid grid-cols-3 gap-5'>
-                    <div className='flex items-center justify-around p-4 mb-2 rounded-xl shadow-xl shadow-gray-300'>
+                <div className='md:grid md:grid-cols-2 lg:grid-cols-3 gap-3'>
+                    <div className='flex items-center justify-around p-4 mb-3 rounded-xl shadow-xl shadow-gray-300'>
                         <span>
                             <SiHtml5 className='text-5xl text-[#f06529]' />
                         </span>
@@ -15,7 +15,7 @@ const Skills = () => {
                             HTML
                         </p>
                     </div>
-                    <div className='flex items-center justify-around p-4 mb-2 rounded-xl shadow-xl shadow-gray-300'>
+                    <div className='flex items-center justify-around p-4 mb-3 rounded-xl shadow-xl shadow-gray-300'>
                         <span>
                             <SiCss3 className='text-5xl text-[#2965f1]' />
                         </span>
@@ -23,7 +23,7 @@ const Skills = () => {
                             CSS
                         </p>
                     </div>
-                    <div className='flex items-center justify-around p-3 mb-2 rounded-xl shadow-xl shadow-gray-300'>
+                    <div className='flex items-center justify-around p-3 mb-3 rounded-xl shadow-xl shadow-gray-300'>
                         <span>
                             <SiBootstrap className='text-5xl text-[#563d7c]' />
                         </span>
@@ -31,7 +31,7 @@ const Skills = () => {
                             Bootstrap
                         </p>
                     </div>
-                    <div className='flex items-center justify-around p-4 mb-2 rounded-xl shadow-xl shadow-gray-300'>
+                    <div className='flex items-center justify-around p-4 mb-3 rounded-xl shadow-xl shadow-gray-300'>
                         <span>
                             <SiJavascript className='text-5xl text-[#f0db4f]' />
                         </span>
@@ -39,7 +39,7 @@ const Skills = () => {
                             JavaScript
                         </p>
                     </div>
-                    <div className='flex items-center justify-around p-4 mb-2 rounded-xl shadow-xl shadow-gray-300'>
+                    <div className='flex items-center justify-around p-4 mb-3 rounded-xl shadow-xl shadow-gray-300'>
                         <span>
                            <SiJquery className='text-5xl text-[#0769ad]' />
                         </span>
@@ -47,7 +47,7 @@ const Skills = () => {
                             JQuery
                         </p>
                     </div>
-                    <div className='flex items-center justify-around p-4 mb-2 rounded-xl shadow-xl shadow-gray-300'>
+                    <div className='flex items-center justify-around p-4 mb-3 rounded-xl shadow-xl shadow-gray-300'>
                         <span>
                             <SiReact className='text-5xl text-[#61dafb]' />
                         </span>
@@ -55,7 +55,7 @@ const Skills = () => {
                             React
                         </p>
                     </div>
-                    <div className='flex items-center justify-around p-4 mb-2 rounded-xl shadow-xl shadow-gray-300'>
+                    <div className='flex items-center justify-around p-4 mb-3 rounded-xl shadow-xl shadow-gray-300'>
                         <span>
                             <SiNextdotjs className='text-5xl text-[#000000]' />
                         </span>
@@ -63,7 +63,7 @@ const Skills = () => {
                             Next.js
                         </p>
                     </div>
-                    <div className='flex items-center justify-around p-4 mb-2 rounded-xl shadow-xl shadow-gray-300'>
+                    <div className='flex items-center justify-around p-4 mb-3 rounded-xl shadow-xl shadow-gray-300'>
                         <span>
                             <SiTailwindcss className='text-5xl text-[#06b6d4]' />
                         </span>
@@ -71,7 +71,7 @@ const Skills = () => {
                             Tailwind CSS
                         </p>
                     </div>
-                    <div className='flex items-center justify-around p-3 mb-2 rounded-xl shadow-xl shadow-gray-300'>
+                    <div className='flex items-center justify-around p-3 mb-3 rounded-xl shadow-xl shadow-gray-300'>
                         <span>
                             <SiNodedotjs className='text-5xl text-[#339933]' />
                         </span>
@@ -79,7 +79,7 @@ const Skills = () => {
                             Node.js
                         </p>
                     </div>
-                    <div className='flex items-center justify-around p-3 mb-2 rounded-xl shadow-xl shadow-gray-300'>
+                    <div className='flex items-center justify-around p-3 mb-3 rounded-xl shadow-xl shadow-gray-300'>
                         <span>
                             <SiMongodb className='text-5xl text-[#47a248]' />
                         </span>
