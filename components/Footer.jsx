@@ -21,7 +21,7 @@ const Footer = () => {
             Living, learning, & leveling up one day at a time
           </h2>
         </div>
-        <div className="md:hidden flex items-center justify-between w-[600px] text-[#5651ef]">
+        <div className="md:hidden flex items-center justify-between text-[#5651ef] gap-10">
           <Link
             href="https://github.com/nimscodes"
             target="_blank"
