@@ -6,7 +6,7 @@ const Hero = () => {
     const url = "/resume.pdf";
     const link = document.createElement("a");
     link.href = url;
-    link.setAttribute("download", "resume.pdf");
+    link.setAttribute("download", "dev+resume.pdf");
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
